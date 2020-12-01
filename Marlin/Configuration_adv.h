@@ -2208,7 +2208,7 @@
     #define FILAMENT_CHANGE_UNLOAD_FEEDRATE     40  // (mm/s) Unload filament feedrate. This can be pretty fast.
   #endif
   #define FILAMENT_CHANGE_UNLOAD_ACCEL        25  // (mm/s^2) Lower acceleration may allow a faster feedrate.
-  #if ANY(MachineEnder5Plus, MachineCR10SPro, MachineCR10SProV2)
+  #if ANY(MachineCR10SPro, MachineCR10SProV2)
     #define FILAMENT_CHANGE_UNLOAD_LENGTH      75
   #elif ENABLED(DirectDrive)
     #define FILAMENT_CHANGE_UNLOAD_LENGTH      125
